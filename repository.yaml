@@ -1,0 +1,4 @@
+
+name: NGINX Home Assistant SSL proxy add-on
+url: https://github.com/lmagyar/homeassistant-addon-nginx-proxy
+maintainer: "@lmagyar"
