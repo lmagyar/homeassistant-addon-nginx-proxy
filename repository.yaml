@@ -1,4 +1,4 @@
 
-name: NGINX Home Assistant SSL proxy add-on
+name: NGINX Home Assistant SSL proxy with certificate renewal detection add-on
 url: https://github.com/lmagyar/homeassistant-addon-nginx-proxy
 maintainer: "@lmagyar"
