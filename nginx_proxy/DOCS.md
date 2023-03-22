@@ -1,8 +1,9 @@
-# Home Assistant Add-on: NGINX Home Assistant SSL proxy
+# Home Assistant Add-on: NGINX Home Assistant SSL proxy with certificate renewal detection
 
 ![Warning][warning_stripe]
 
-> This is a **fork** of the [official add-on][official_addon]! This reloads NGINX when the certificate is renewed.
+> This is a **fork** of the [official add-on][official_addon]! This reloads
+> NGINX when the certificate is renewed.
 >
 > Updates are released when the official add-on changes (changes are merged).
 
@@ -12,9 +13,15 @@
 
 Follow these steps to get the add-on installed on your system:
 
-1. Navigate in your Home Assistant frontend to **Settings** -> **Add-ons** -> **Add-on store**.
-2. Find the "NGINX Home Assistant SSL proxy" add-on and click it.
-3. Click on the "INSTALL" button.
+1. Navigate in your Home Assistant frontend to **Settings** -> **Add-ons** ->
+   **Add-on Store**.
+1. In the **...** menu at the top right corner click **Repositories**, add
+   `https://github.com/lmagyar/homeassistant-addon-nginx-proxy` as repository.
+1. Find the "NGINX Home Assistant SSL proxy with certificate renewal detection"
+   add-on and click it. If it doesn't show up, wait until HA refreshes the
+   information about the add-on, or click **Reload** in the **...** menu at the
+   top right corner.
+1. Click on the "INSTALL" button.
 
 ## How to use
 
@@ -34,11 +41,11 @@ The NGINX Proxy add-on is commonly used in conjunction with the [Duck DNS](https
        - 172.30.33.0/24
    ```
 
-4. In the nginx addon configuration, change the `domain` option to the domain name you registered (from DuckDNS or any other domain you control).
+4. In the NGINX Proxy add-on configuration, change the `domain` option to the domain name you registered (from DuckDNS or any other domain you control).
 5. Leave all other options as-is.
 6. Save configuration.
 7. Start the add-on.
-8. Have some patience and wait a couple of minutes.
+8. Have some patience and wait a couple of minutes on first start.
 9. Check the add-on log output to see the result.
 
 ## Configuration
