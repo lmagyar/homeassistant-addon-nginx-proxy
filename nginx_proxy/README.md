@@ -1,9 +1,15 @@
-# Home Assistant Add-on: NGINX Home Assistant SSL proxy with certificate renewal detection
+
+| <img src="https://github.com/lmagyar/homeassistant-addon-nginx-proxy/raw/main/images/stop_sign.png" title="Stop"> | === END OF LIFE === END OF LIFE === END OF LIFE === END OF LIFE === <br> **PLEASE USE THE OFFICIAL ADD-ON!** **The PR from this fork is merged.** **At this point the two add-ons are functionally equivalent.** | <img src="https://github.com/lmagyar/homeassistant-addon-nginx-proxy/raw/main/images/stop_sign.png" title="Stop"> |
+| --- | --- | --- |
+
+# Home Assistant Add-on: NGINX Home Assistant SSL proxy with bugfixes
 
 ![Warning][warning_stripe]
 
-> This is a **fork** of the [official add-on][official_addon]! This reloads
-> NGINX when the certificate is renewed.
+> This is a **fork** of the [official add-on][official_addon]! 
+>
+> Changes:
+>   - Reloads NGINX when the certificate is renewed
 >
 > Updates are released when the official add-on changes (changes are merged).
 
