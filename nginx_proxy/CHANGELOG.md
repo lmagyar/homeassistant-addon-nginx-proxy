@@ -1,5 +1,17 @@
 # Changelog
 
+## 3.3.0-rc06
+
+***=== END OF LIFE === END OF LIFE === END OF LIFE === END OF LIFE ===***
+
+**PLEASE USE THE OFFICIAL ADD-ON!**
+
+**The PR from this fork is merged.**
+
+**At this point the two add-ons are functionally equivalent.**
+
+***=== END OF LIFE === END OF LIFE === END OF LIFE === END OF LIFE ===***
+
 ## 3.3.0-rc05
 
 - Follow latest s6-rc.d best-practices
